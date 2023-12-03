@@ -14,7 +14,7 @@
 
 ### Overview
 This repo contains an example implementation of the Simplified Multi-hop Attention Network (SMN) model, 
-described in the paper [Deep Overlapping Community Search via Subspace Embedding].
+described in the paper Deep Overlapping Community Search via Subspace Embedding.
 
 A Simplified Multi-hop Attention Network (SMN) is proposed, accompanied
 by sparse subspace embedding techniques. SMN is the first study of deep overlapping community search.
