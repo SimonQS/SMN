@@ -18,7 +18,7 @@ described in the paper Deep Overlapping Community Search via Subspace Embedding.
 
 A Simplified Multi-hop Attention Network (SMN) is proposed, accompanied
 by sparse subspace embedding techniques. SMN is the first study of deep overlapping community search.
-For an illustration, ![](./model.jpg "SMN")
+For an illustration, ![](./model.png "SMN")
 
 This home repo contains the implementation for citation networks (Cora, Citeseer, and Pubmed) , Facebook, MAG and Reddit.
 
