@@ -3,15 +3,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
 
 
-#### Authors: 
-* [Qing Sima]
-* [Xiaoyang Wang]
-* [Jianke Yu]
-* [Wenjie Zhang]
-* [Ying Zhang]
-* [Xuemin Lin]
-
-
 ### Overview
 This repo contains an example implementation of the Simplified Multi-hop Attention Network (SMN) model, 
 described in the paper Deep Overlapping Community Search via Subspace Embedding.
