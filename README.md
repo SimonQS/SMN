@@ -15,8 +15,3 @@ $ python facebook.py --dataset facebook
 $ python mag_data.py --dataset mag_cs
 $ python reddit.py --dataset reddit
 ```
-
-
-### Acknowledgement
-This repo is modified from [sgc](https://github.com/Tiiiger/SGC).
-
