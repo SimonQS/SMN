@@ -1,5 +1,5 @@
 
-This home repo contains the implementation for citation networks (Cora, Citeseer, and Pubmed) , Facebook, MAG and Reddit.
+This home repo contains the implementation for Facebook, MAG, citation networks (Cora, Citeseer, and Pubmed), and Reddit.
 
 ### Dependencies
 Our implementation works with PyTorch>=1.0.0 Install other dependencies: `$ pip install -r requirement.txt`
@@ -10,8 +10,8 @@ Due to space limit, please download reddit dataset from [FastGCN](https://github
 
 ### Usage
 ```
+$ python main.py --dataset facebook
+$ python main.py --dataset mag_cs
 $ python citation.py --dataset cora
-$ python facebook.py --dataset facebook
-$ python mag_data.py --dataset mag_cs
 $ python reddit.py --dataset reddit
 ```

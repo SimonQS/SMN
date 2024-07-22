@@ -3,7 +3,6 @@ import scipy.sparse as sp
 import torch
 
 def aug_normalized_adjacency(adj, model):
-   # no self-loop added
     adj = sp.coo_matrix(adj)
     row_sum = np.array(adj.sum(1)) # get degree
     row_sum[np.isnan(row_sum)] = 0.
