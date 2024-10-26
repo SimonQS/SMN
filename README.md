@@ -15,3 +15,7 @@ $ python main.py --dataset mag_cs
 $ python citation.py --dataset cora
 $ python reddit.py --dataset reddit
 ```
+
+### OCS vs OCIS
+'--case 1' = OCS, 
+'--case 2' = OCIS
