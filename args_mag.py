@@ -52,7 +52,7 @@ def get_citation_args():
                         choices=['mul', 'cat', 'adj'],
                         help='feature-type')
     parser.add_argument('--case', type=int, default=1,
-                        choices=[1, 2, 3], help='which scenarios are we looking at')
+                        choices=[1, 2, 3], help='which scenarios are we looking at, 1 = OCS, 2 = OCIS')
     parser.add_argument('--normalization', type=str, default='AugNormAdj',
                         choices=['NormLap', 'Lap', 'RWalkLap', 'FirstOrderGCN',
                             'AugNormAdj', 'NormAdj', 'RWalk', 'AugRWalk', 'NoNorm'],
