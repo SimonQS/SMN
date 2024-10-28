@@ -9,7 +9,6 @@ We provide the citation network datasets under `data/`, which corresponds to [th
 Due to space limit, please download reddit dataset from [FastGCN](https://github.com/matenure/FastGCN/issues/9) and put `reddit_adj.npz`, `reddit.npz` under `data/`.
 
 ### Usage
-### Usage
 ```
 # training with default hyperparameters (e.g. OCS on FACEBOOK)
 $ python main.py --dataset facebook
