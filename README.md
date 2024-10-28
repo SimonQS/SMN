@@ -19,3 +19,34 @@ $ python reddit.py --dataset reddit
 ### OCS vs OCIS
 '--case 1' = OCS, 
 '--case 2' = OCIS
+
+### Model and Training Parameters
+--no-cuda: Disables CUDA, using CPU instead (default: False).
+--seed: Sets a random seed for reproducibility.
+--epochs: Specifies the number of training epochs.
+--heads: Sets the number of attention heads for multi-head models.
+--lr: Initial learning rate.
+--weight_decay: Weight decay for L2 regularization.
+
+### Model Design Choices
+--hidden: Number of hidden units in the model.
+--ssf: Method to apply sparsity, options include hard, soft, or none.
+--loss: Loss function to use, with several options including focal and spatial losses.
+--ssf_dim: Dimensionality of sparse subspace filters.
+--sp_rate: Sparsity rate for sparse subspace filters.
+--lammda: Penalty coefficient to control the regularization term.
+--gamma, --alpha, --gamma_neg, --gamma_pos: Parameters controlling the loss function's focus and balance aspects.
+
+### Community and Feature Specifications
+--comm_size: Sets the community size for the search.
+--cs: Community Search (CS) algorithm to apply; options include sub_cs and sub_topk.
+--dropout: Dropout rate to prevent overfitting.
+--dataset: Dataset to use for training/testing (default: mag_cs).
+--model: Model architecture to use, including options such as SGC, GCN, and SMN.
+--feature: Feature type for input processing, with options like mul, cat, and adj.
+
+### Scenarios and Problem Settings
+--case: Specifies the task scenario (1 for OCS, 2 for OCIS).
+--normalization: Normalization strategy for the adjacency matrix, offering methods like NormLap, Lap, and AugNormAdj.
+--hop: Degree of approximation, indicating k-hop adjacency.
+--fb_num: Facebook dataset option, specifying a subset (0, 107, 348, 414, or 686).
