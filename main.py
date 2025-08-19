@@ -210,7 +210,5 @@ if args.model == "SMN" or args.model == "SGC":
     print("DATASET: {}".format(args.fb_num))
     print("Training Time: {}".format(round(precompute_time+train_time, 4)))
     print("Query Time: {}".format(round(cs_time, 6)))
-    print('Test_acc/f1: {}'.format(round(f1_test, 4)))
-    print("Hamming: {}".format(round(cs_h_loss, 4)))
     print("Jaccard: {}".format(round(cs_jaccard, 4)))
     print("F1 Score: {}".format(round(cs_f1, 4)))
