@@ -1,3 +1,12 @@
+python=3.10
+pytorch
+pytorch-cuda=11.8
+torchaudio
+torchvision
+pyg
+conda-forge::googledrivedownloader
+conda-forge::scikit-learn
+conda-forge::pytorch_sparse
 numpy
 scipy
 networkx==1.11
