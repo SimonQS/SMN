@@ -10,6 +10,9 @@ Due to space limit, please download reddit dataset from [FastGCN](https://github
 
 ### Usage
 ```
+# Reproduce all results in the main experiment table
+./exp.sh
+
 # training with default hyperparameters (e.g. OCS on FACEBOOK)
 $ python main.py --dataset facebook
 
