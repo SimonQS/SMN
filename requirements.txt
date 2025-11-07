@@ -9,6 +9,6 @@ conda-forge::scikit-learn
 conda-forge::pytorch_sparse
 numpy
 scipy
-networkx==1.11
+networkx==2.51
 scikit-learn
 hyperopt==0.1.1
